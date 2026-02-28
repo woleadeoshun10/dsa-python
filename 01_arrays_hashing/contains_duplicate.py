@@ -25,12 +25,12 @@ class Solution:
         """
         Optimized Solution (Preferred)
         """
-        seen = set()
+        numChecker = set()
 
         for num in nums:
-            if num in seen:
+            if num in numChecker:
                 return True
-            seen.add(num)
+            numChecker.add(num)
 
         return False
 
