@@ -28,7 +28,7 @@ class Solution:
         cols = defaultdict(set)
         squares = defaultdict(set)
 
-        for r in range(9)
+        for r in range(9):
             for c in range(9):
 
                 value = board[r][c]
