@@ -20,7 +20,7 @@ a duplicate exists.
 from typing import List
 
 
-class Solution:
+class Solution
     def containsDuplicate(self, nums: List[int]) -> bool:
         """
         Optimized Solution (Preferred)
