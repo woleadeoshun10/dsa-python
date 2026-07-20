@@ -25,7 +25,7 @@ class Solution:
         """
         Optimized Solution (Preferred)
         """
-        numC = set()
+        numChecker = set()
 
         for num in nums:
             if num in numChecker:
